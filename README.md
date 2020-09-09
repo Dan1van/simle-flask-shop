@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 Запустите **run.py** и перейдите по адресу: http://127.0.0.1:5000/.
 
-![Главная страница сайта](https://imgur.com/B5NIYys)
+![Главная страница сайта](https://user-images.githubusercontent.com/40074918/92633391-62f1e100-f2db-11ea-91c5-2ce6845dd59b.png)
 
 Если Вы увидите данную страницу, то запуск веб-сервера произошел успешно.
 
