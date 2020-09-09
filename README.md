@@ -22,4 +22,4 @@ pip install -r requirements.txt
 _____
 Чтобы добавить новые товары в каталог, перейдите по ссылке: http://127.0.0.1:5000/create и заполните форму.
 
-![Форма для добавления нового товара](https://imgur.com/NOTwIyl)
+![Форма для добавления нового товара](https://user-images.githubusercontent.com/40074918/92633568-9f254180-f2db-11ea-8609-94a60aeec933.png)
