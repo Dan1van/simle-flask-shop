@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Каталог
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1 class="display-4">{{ product.title }}</h1>
+    <div class="row mt-4 mb-4">
+        <div class="col-md-4 mb-4">
+            <img src="{{ url_for('static', filename=product.img) }}" alt="{{ product.title }}" style="width: 100%">
+        </div>
+        <div class="col-md-8">
+            <p class="lead">{{ product.text }}</p>
+            <p class="h4 mb-3">{{ product.price }} $</p>
+            <a href="#" class="btn btn-dark">Купить</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

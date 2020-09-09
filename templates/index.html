@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block body %}
+<div class="index-banner position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+  <div class="col-md-5 p-lg-5 mx-left my-5">
+    <h1 class="display-4 font-weight-normal">Apple products</h1>
+    <p class="lead font-weight-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <a class="btn btn-outline-secondary" href="{{ url_for('catalog_page') }}">Catalog</a>
+  </div>
+</div>
+{% endblock %}

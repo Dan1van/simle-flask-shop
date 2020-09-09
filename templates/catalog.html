@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Каталог
+{% endblock %}
+
+{% block body %}
+
+{% for product_row in products | batch(3, '&nbsp;') %}
+<div class="product-row d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  {% for product in product_row %}
+  <div class="product-block mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 py-3">
+      <h2 class="display-5">{{ product.title }}</h2>
+      <p class="h4 ">{{ product.price }} $</p>
+    </div>
+    <div class="mx-auto img-wrap"><img class="product-image" src="{{ url_for('static', filename=product.img) }}" alt="{{ product.title }}"></div>
+    <a href="/product-{{ product.id }}" class="mx-auto my-3 btn btn-light">About</a>
+  </div>
+  {% endfor %}
+  </div>
+{% endfor %}
+
+{% endblock %}
