@@ -4,10 +4,10 @@ Simple-flask-shop это интернет-магазин, разработанн
 
 ## Установка
 
-Используйте менеджер установки пакетов [pip](https://pip.pypa.io/en/stable/) для установки simple-flask-shop.
+Склонируйте git-репозиторий и установите зависимости.
 
 ```bash
-pip clone https://github.com/Dan1van/simple-flask-shop.git
+git clone https://github.com/Dan1van/simple-flask-shop.git
 pip install -r requirements.txt
 ```
 
